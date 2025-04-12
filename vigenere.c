@@ -15,7 +15,7 @@ char * vigenere(char* plaintext,char*  key){
         {
             decalage=97;
         }
-        else if (key[key_index]>='A' && key[key_index]<='Z')      ////permet de verifier si le caractere de la cle est une majuscule
+        else if (key[key_index]>='A' && key[key_index]<='Z')      //permet de verifier si le caractere de la cle est une majuscule
         {
             decalage=65;
         }
