@@ -11,11 +11,11 @@ char * vigenere(char* plaintext,char*  key){
     int decalage;
     for (int i = 0; i < count; i++)
     {
-        if (key[key_index]>='a' && key[key_index]<='z')
+        if (key[key_index]>='a' && key[key_index]<='z')    //permet de verifier si le caractere de la cle est une miniscule
         {
             decalage=97;
         }
-        else if (key[key_index]>='A' && key[key_index]<='Z')
+        else if (key[key_index]>='A' && key[key_index]<='Z')      ////permet de verifier si le caractere de la cle est une majuscule
         {
             decalage=65;
         }
